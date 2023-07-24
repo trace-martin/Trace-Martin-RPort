@@ -1,20 +1,27 @@
 import React from 'react';
-import '../styles/Project.css';
 import ProjectItem from '../components/ProjectItem';
-// import Proj1 from '../assets/proj1.jpg'
+import { projectList } from '../helpers/ProjectList';
+import '../styles/Projects.css';
 
 function Projects() {
   return (
     <div className='projects'>
       <h1>My Personal Projects</h1>
       <div className='projectList'>
-        <ProjectItem name='Social Media Website' image={Proj1}/>
-        <ProjectItem name='Social Media Website' image={Proj1}/>
-        <ProjectItem name='Social Media Website' image={Proj1}/>
-        <ProjectItem name='Social Media Website' image={Proj1}/>
+        {projectList.map((project) => {
+          return (
+            <ProjectItem 
+
+            name={project.name} 
+            image={project.image} 
+            skills={project.skills}
+            description={project.description}
+            />
+          );
+        })}
       </div>
     </div>
   );
 }
 
-export default Projects
+export default Projects;

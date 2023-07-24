@@ -1,7 +1,8 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css'; 
-// import SchoolIcon from '@material-ui/icons/School';
+import SchoolTwoToneIcon from '@mui/icons-material/SchoolTwoTone';
+import WorkOutlineTwoToneIcon from '@mui/icons-material/WorkOutlineTwoTone';
 
 function Experience() {
   return (
@@ -11,7 +12,7 @@ function Experience() {
           className='vertical-timeline-element--education'
           date='2007-2011'
           iconStyle={{background: '#3e497a', color:"fff"}}
-          // icon={<SchoolIcon />}
+          icon={ <SchoolTwoToneIcon /> }
         >
           <h3 className='vertical-timeline-element-title'> 
             Granbury High School<br></br>
@@ -26,7 +27,7 @@ function Experience() {
           className='vertical-timeline-element--education'
           date='2011-2015'
           iconStyle={{background: '#3e497a', color:"fff"}}
-          // icon={<SchoolIcon />}
+          icon={ <SchoolTwoToneIcon /> }
         >
           <h3 className='vertical-timeline-element-title'> 
             Sam Houston State University<br></br>
@@ -42,7 +43,7 @@ function Experience() {
           className='vertical-timeline-element--education'
           date='2017-2019'
           iconStyle={{background: '#3e497a', color:"fff"}}
-          // icon={<SchoolIcon />}
+          icon={ <WorkOutlineTwoToneIcon /> }
         >
           <h3 className='vertical-timeline-element-title'> 
             Sulphur Springs ISD<br></br>
@@ -57,7 +58,7 @@ function Experience() {
           className='vertical-timeline-element--education'
           date='2019-2020'
           iconStyle={{background: '#3e497a', color:"fff"}}
-          // icon={<SchoolIcon />}
+          icon={ <WorkOutlineTwoToneIcon /> }
         >
           <h3 className='vertical-timeline-element-title'> 
             China Spring ISD<br></br>

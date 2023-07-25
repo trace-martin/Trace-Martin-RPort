@@ -41,7 +41,7 @@ function AboutMe() {
         <p>
           As both an individual and a developer, I am known for my unwavering dedication. 
           When I take on a task, I give it my all, pushing through challenges until I achieve success. 
-          My tenacity and determination drive me forward in my journey as a React developer.
+          My tenacity and determination drive me forward in my journey as a developer.
         </p>
 
         <p>

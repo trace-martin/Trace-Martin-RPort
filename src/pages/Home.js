@@ -7,7 +7,7 @@ function Home() {
         <h2>Hello, my name is Trace Martin</h2>
         <div className='prompt'> 
             <p>
-                Junior Full Stack Engineer
+                Junior Full Stack Developer
             </p>
         </div>    
     </div>

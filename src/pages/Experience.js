@@ -10,17 +10,77 @@ function Experience() {
     <div className='experience'>
       <VerticalTimeline lineColor='#000000'>
         <VerticalTimelineElement 
+            className='vertical-timeline-element--education'
+            date='Feb. 2023-August 2023'
+            iconStyle={{background: '#b19ac5', color:"fff"}}
+            icon={ <SchoolTwoToneIcon /> }
+          >
+            <h3 className='vertical-timeline-element-title'> 
+              University of Denver<br></br>
+              Denver, Colorado
+            </h3>
+            <p>
+              Full Stack Web Developer bootcamp
+            </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+            className='vertical-timeline-element--education'
+            date='August 2022- August 2023'
+            iconStyle={{background: '#b19ac5', color:"fff"}}
+            icon={ <WorkOutlineTwoToneIcon /> }
+          >
+            <h3 className='vertical-timeline-element-title'> 
+              Columbine Elementary DPS<br></br>
+              Denver, Colorado
+            </h3>
+            <p>
+              Physical Education Teacher
+            </p>
+        </VerticalTimelineElement>
+        
+        <VerticalTimelineElement 
           className='vertical-timeline-element--education'
-          date='2007-2011'
+          date='2019-2022'
           iconStyle={{background: '#b19ac5', color:"fff"}}
-          icon={ <SchoolTwoToneIcon /> }
+          icon={ <WorkOutlineTwoToneIcon /> }
         >
           <h3 className='vertical-timeline-element-title'> 
-            Granbury High School<br></br>
-            Granbury, Texas
+            Denver Green School DPS<br></br>
+            Denver, Colorado
           </h3>
           <p>
-            High School Deploma
+            Excursion Coordinator/Physical Education Teacher
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--education'
+          date='2018-2019'
+          iconStyle={{background: '#b19ac5', color:"fff"}}
+          icon={ <WorkOutlineTwoToneIcon /> }
+        >
+          <h3 className='vertical-timeline-element-title'> 
+            China Spring ISD<br></br>
+            China Spring, Texas
+          </h3>
+          <p>
+          Physical Education Teacher/Coach
+          </p>
+        </VerticalTimelineElement>
+        
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--education'
+          date='2016-2018'
+          iconStyle={{background: '#b19ac5', color:"fff"}}
+          icon={ <WorkOutlineTwoToneIcon /> }
+        >
+          <h3 className='vertical-timeline-element-title'> 
+            Sulphur Springs ISD<br></br>
+            Sulphur Springs, Texas
+          </h3>
+          <p>
+            Physical Education Teacher/Coach
           </p>
         </VerticalTimelineElement>
 
@@ -42,76 +102,16 @@ function Experience() {
 
         <VerticalTimelineElement 
           className='vertical-timeline-element--education'
-          date='2017-2019'
-          iconStyle={{background: '#b19ac5', color:"fff"}}
-          icon={ <WorkOutlineTwoToneIcon /> }
-        >
-          <h3 className='vertical-timeline-element-title'> 
-            Sulphur Springs ISD<br></br>
-            Sulphur Springs, Texas
-          </h3>
-          <p>
-            Physical Education Teacher/Coach
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--education'
-          date='2019-2020'
-          iconStyle={{background: '#b19ac5', color:"fff"}}
-          icon={ <WorkOutlineTwoToneIcon /> }
-        >
-          <h3 className='vertical-timeline-element-title'> 
-            China Spring ISD<br></br>
-            China Spring, Texas
-          </h3>
-          <p>
-          Physical Education Teacher/Coach
-          </p>
-        </VerticalTimelineElement>
-        
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--education'
-          date='2017-2019'
-          iconStyle={{background: '#b19ac5', color:"fff"}}
-          icon={ <WorkOutlineTwoToneIcon /> }
-        >
-          <h3 className='vertical-timeline-element-title'> 
-            Denver Green School DPS<br></br>
-            Denver, Colorado
-          </h3>
-          <p>
-            Excursion Coordinator/Physical Education Teacher
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--education'
-          date='2017-2019'
-          iconStyle={{background: '#b19ac5', color:"fff"}}
-          icon={ <WorkOutlineTwoToneIcon /> }
-        >
-          <h3 className='vertical-timeline-element-title'> 
-            Columbine Elementary DPS<br></br>
-            Denver, Colorado
-          </h3>
-          <p>
-            Physical Education Teacher
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--education'
-          date='2017-2019'
+          date='2007-2011'
           iconStyle={{background: '#b19ac5', color:"fff"}}
           icon={ <SchoolTwoToneIcon /> }
         >
           <h3 className='vertical-timeline-element-title'> 
-            University of Denver<br></br>
-            Denver, Colorado
+            Granbury High School<br></br>
+            Granbury, Texas
           </h3>
           <p>
-            Full Stack Web Developer bootcamp (12 weeks)
+            High School Deploma
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

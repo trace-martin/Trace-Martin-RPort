@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
 import "../styles/Navbar.css";
 import ReorderTwoToneIcon from '@mui/icons-material/ReorderTwoTone';
+import logo from '../assets/logo.PNG';
 
 function Navbar() {
     const [expandNavbar, setExpandNavBar] = useState(false);
@@ -20,11 +21,11 @@ function Navbar() {
             </button>
         </div>
         <div className='links'>
-            <Link to="/"> Home </Link>
-            <Link to="/about"> About </Link>
-            <Link to="/projects"> Projects </Link>
-            <Link to="/experience"> Experience </Link>
-            <Link to="/contact"> Contact </Link>
+            <Link className='pop' to="/"> Home </Link>
+            <Link className='pop' to="/about"> About </Link>
+            <Link className='pop' to="/projects"> Projects </Link>
+            <Link className='pop' to="/experience"> Experience </Link>
+            <Link className='pop' to="/contact"> Contact </Link>
         </div>
     </div>
   );

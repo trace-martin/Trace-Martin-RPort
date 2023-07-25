@@ -23,4 +23,22 @@ export const projectList = [
         skills: ' JavaScript, Node.js',
         description: 'This project was created for users to search for jobs using keywords, save jobs to their profile, and do other things'
     },
+    {
+        name: 'Pawesome Fact Finder',
+        image: Pawesome,
+        skills: ' JavaScript, Node.js',
+        description: 'This project was created for users to search for jobs using keywords, save jobs to their profile, and do other things'
+    },
+    {
+        name: 'Pawesome Fact Finder',
+        image: Pawesome,
+        skills: ' JavaScript, Node.js',
+        description: 'This project was created for users to search for jobs using keywords, save jobs to their profile, and do other things'
+    },
+    {
+        name: 'Pawesome Fact Finder',
+        image: Pawesome,
+        skills: ' JavaScript, Node.js',
+        description: 'This project was created for users to search for jobs using keywords, save jobs to their profile, and do other things'
+    }
 ]

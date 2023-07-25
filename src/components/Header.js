@@ -1,10 +1,11 @@
 import React from 'react';
-import HeaderImage from '../path/to/header-image.jpg'; // Replace with the path to your header image
+import Hero from '../assets/hero.jpg';
+import '../styles/Header.css'
 
 function Header() {
   return (
     <div className='header'>
-      <img src={HeaderImage} alt='Header' />
+      <img src={Hero} alt='Header' />
     </div>
   );
 }

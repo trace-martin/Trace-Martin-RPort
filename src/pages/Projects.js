@@ -10,8 +10,7 @@ function Projects() {
       <div className='projectList'>
         {projectList.map((project) => {
           return (
-            <ProjectItem 
-
+            <ProjectItem
             name={project.name} 
             image={project.image} 
             skills={project.skills}

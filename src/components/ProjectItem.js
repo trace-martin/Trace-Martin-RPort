@@ -16,17 +16,13 @@ function ProjectItem({ image, name, id, skills, description }) {
   return (
     <div>
       <div className='projectItem' onClick={handleOpen}>
-        <div style={{ backgroundImage: `url(${image})` }} className='bgImage' />
+        <div style={{ backgroundImage: `url(${image})` }} className='projectImage' />
         <h1>{name}</h1>
       </div>
       <Modal
         open={open}
         onClose={handleClose}
         closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
       >
         <Fade in={open}>
           <div className='modal'>

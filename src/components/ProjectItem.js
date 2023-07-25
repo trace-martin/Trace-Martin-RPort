@@ -1,8 +1,8 @@
 import React from 'react'
-import { Modal, Backdrop, Fade, Typography, Button } from '@mui/material';
+import { Modal, Fade, Button } from '@mui/material';
 import '../styles/Modal.css'
 
-function ProjectItem({ image, name, id, skills, description }) {
+function ProjectItem({ image, name, id, skills, description, gitLink }) {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
@@ -26,15 +26,22 @@ function ProjectItem({ image, name, id, skills, description }) {
       >
         <Fade in={open}>
           <div className='modal'>
-            <h2>{name}</h2>
             <div className='modalDescription'>
+            <h2>{name}</h2>
               <b>Description:</b>
             </div>
             <p className='modalDescription'>{description}</p>
             <p> 
               <b>Skills:</b>{ skills } 
             </p>
-            <Button onClick={handleClose} variant='contained' color='primary'>
+            <p>
+                <b>GitHub:</b>
+                <br />
+                <a href={gitLink} target='_blank' rel="noreferrer">
+                  Check it out!
+                </a>
+            </p>
+            <Button onClick={handleClose} variant='contained'>
               Close
             </Button>
           </div>

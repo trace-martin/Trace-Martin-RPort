@@ -15,6 +15,7 @@ function Projects() {
             image={project.image} 
             skills={project.skills}
             description={project.description}
+            gitLink={project.gitLink}
             />
           );
         })}

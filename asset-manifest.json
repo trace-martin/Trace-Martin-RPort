@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Trace-Martin-RPort/static/css/main.c522a9c0.css",
-    "main.js": "/Trace-Martin-RPort/static/js/main.efd69fe1.js",
-    "static/js/787.bad52d32.chunk.js": "/Trace-Martin-RPort/static/js/787.bad52d32.chunk.js",
-    "static/media/Pawesome.PNG": "/Trace-Martin-RPort/static/media/Pawesome.b98fcfca0d1b3abb439e.PNG",
-    "static/media/hero.jpg": "/Trace-Martin-RPort/static/media/hero.a77e7458ec7e0eec0082.jpg",
-    "static/media/ImperialDB.jpg": "/Trace-Martin-RPort/static/media/ImperialDB.3e49bf062b5b42e55a8c.jpg",
-    "static/media/pyramid.jpg": "/Trace-Martin-RPort/static/media/pyramid.ce738feb7d6445e05b29.jpg",
-    "static/media/store.png": "/Trace-Martin-RPort/static/media/store.b334706c464867aab127.png",
-    "static/media/HireHound.PNG": "/Trace-Martin-RPort/static/media/HireHound.414fbc01497f19af785e.PNG",
-    "static/media/cloud.jpg": "/Trace-Martin-RPort/static/media/cloud.7a1cad12666a4e30a0e1.jpg",
-    "static/media/dailyPlanner.PNG": "/Trace-Martin-RPort/static/media/dailyPlanner.09b2ee41b54fbb661996.PNG",
-    "index.html": "/Trace-Martin-RPort/index.html",
-    "main.c522a9c0.css.map": "/Trace-Martin-RPort/static/css/main.c522a9c0.css.map",
-    "main.efd69fe1.js.map": "/Trace-Martin-RPort/static/js/main.efd69fe1.js.map",
-    "787.bad52d32.chunk.js.map": "/Trace-Martin-RPort/static/js/787.bad52d32.chunk.js.map"
+    "main.css": "/trace-martin-rport/static/css/main.47d1212d.css",
+    "main.js": "/trace-martin-rport/static/js/main.4460b5c0.js",
+    "static/js/787.bad52d32.chunk.js": "/trace-martin-rport/static/js/787.bad52d32.chunk.js",
+    "static/media/Pawesome.PNG": "/trace-martin-rport/static/media/Pawesome.b98fcfca0d1b3abb439e.PNG",
+    "static/media/hero.jpg": "/trace-martin-rport/static/media/hero.a77e7458ec7e0eec0082.jpg",
+    "static/media/ImperialDB.jpg": "/trace-martin-rport/static/media/ImperialDB.3e49bf062b5b42e55a8c.jpg",
+    "static/media/pyramid.jpg": "/trace-martin-rport/static/media/pyramid.ce738feb7d6445e05b29.jpg",
+    "static/media/store.png": "/trace-martin-rport/static/media/store.b334706c464867aab127.png",
+    "static/media/HireHound.PNG": "/trace-martin-rport/static/media/HireHound.414fbc01497f19af785e.PNG",
+    "static/media/cloud.jpg": "/trace-martin-rport/static/media/cloud.7a1cad12666a4e30a0e1.jpg",
+    "static/media/dailyPlanner.PNG": "/trace-martin-rport/static/media/dailyPlanner.09b2ee41b54fbb661996.PNG",
+    "index.html": "/trace-martin-rport/index.html",
+    "main.47d1212d.css.map": "/trace-martin-rport/static/css/main.47d1212d.css.map",
+    "main.4460b5c0.js.map": "/trace-martin-rport/static/js/main.4460b5c0.js.map",
+    "787.bad52d32.chunk.js.map": "/trace-martin-rport/static/js/787.bad52d32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c522a9c0.css",
-    "static/js/main.efd69fe1.js"
+    "static/css/main.47d1212d.css",
+    "static/js/main.4460b5c0.js"
   ]
 }

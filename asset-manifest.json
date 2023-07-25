@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trace-martin-rport/static/css/main.47d1212d.css",
-    "main.js": "/trace-martin-rport/static/js/main.8ac91ebe.js",
+    "main.js": "/trace-martin-rport/static/js/main.4460b5c0.js",
     "static/js/787.bad52d32.chunk.js": "/trace-martin-rport/static/js/787.bad52d32.chunk.js",
     "static/media/Pawesome.PNG": "/trace-martin-rport/static/media/Pawesome.b98fcfca0d1b3abb439e.PNG",
     "static/media/hero.jpg": "/trace-martin-rport/static/media/hero.a77e7458ec7e0eec0082.jpg",
@@ -13,11 +13,11 @@
     "static/media/dailyPlanner.PNG": "/trace-martin-rport/static/media/dailyPlanner.09b2ee41b54fbb661996.PNG",
     "index.html": "/trace-martin-rport/index.html",
     "main.47d1212d.css.map": "/trace-martin-rport/static/css/main.47d1212d.css.map",
-    "main.8ac91ebe.js.map": "/trace-martin-rport/static/js/main.8ac91ebe.js.map",
+    "main.4460b5c0.js.map": "/trace-martin-rport/static/js/main.4460b5c0.js.map",
     "787.bad52d32.chunk.js.map": "/trace-martin-rport/static/js/787.bad52d32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47d1212d.css",
-    "static/js/main.8ac91ebe.js"
+    "static/js/main.4460b5c0.js"
   ]
 }

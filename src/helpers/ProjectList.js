@@ -1,7 +1,7 @@
-import HireHound from '../assets/HireHound.PNG'
+import HireHound from '../assets/HireHound.png'
 import ImperialDB from '../assets/ImperialDB.jpg'
-import Pawesome from '../assets/Pawesome.PNG';
-import DailyPlanner from '../assets/dailyPlanner.PNG';
+import Pawesome from '../assets/Pawesome.png';
+import DailyPlanner from '../assets/dailyPlanner.png';
 import store from '../assets/store.png';
 import Cloud from '../assets/cloud.jpg'
 

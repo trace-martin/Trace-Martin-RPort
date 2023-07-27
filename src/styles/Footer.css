@@ -9,11 +9,16 @@
   padding-top: 10px;
 }
 
-.socialMedia .icon {
+.social .icons {
   color: white;
   margin: 10px;
   font-size: 40px;
   cursor: pointer;
+}
+
+.copyRight {
+  text-decoration: none;
+  color: white;
 }
 
 .footer p {

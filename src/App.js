@@ -14,7 +14,8 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router 
+        basename={process.env.NODE_ENV === 'development' ? '' : '/trace-martin-rport'}>
         <Navbar />
         <div>
         <Routes>

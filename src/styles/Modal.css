@@ -7,7 +7,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fde7ff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -29,12 +29,18 @@
 }
   
 .modal button {
-    color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     margin-top: 20px;
     margin-right: 23px;
+    background-color: blueviolet;
 }
-
+.modal button:hover {
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+    color: blueviolet;
+    text-transform: unset;
+}
 .modalDescription {
     text-align: center;
     /* font-weight: bold; */

@@ -11,7 +11,7 @@ function Experience() {
       <VerticalTimeline lineColor='#000000'>
         <VerticalTimelineElement 
             className='vertical-timeline-element--education'
-            date='Feb. 2023-August 2023'
+            date='February 2023-August 2023'
             iconStyle={{background: '#b19ac5', color:"fff"}}
             icon={ <SchoolTwoToneIcon /> }
           >
@@ -97,21 +97,6 @@ function Experience() {
           <p>
             BS Criminal Justice <br></br>
             Minor Buisness
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--education'
-          date='2007-2011'
-          iconStyle={{background: '#b19ac5', color:"fff"}}
-          icon={ <SchoolTwoToneIcon /> }
-        >
-          <h3 className='vertical-timeline-element-title'> 
-            Granbury High School<br></br>
-            Granbury, Texas
-          </h3>
-          <p>
-            High School Deploma
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

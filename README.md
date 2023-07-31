@@ -1,60 +1,68 @@
+# My React Portfolio
 
-  # Trace Martin React Portfolio
+This React Portfolio Project is a personal portfolio website built using React.js, a popular JavaScript library for building user interfaces. This project serves as a showcase of my skills, projects, and experiences, allowing visitors to get a glimpse of my work and expertise.
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-  
-  ## Description:
+## Table of Contents
 
-  This project was built to showcase my ability as a developer and skills used
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-  # ScreenCastify video link:
+## Demo
 
+You can check out the live demo of the portfolio [HERE!](https://trace-martin.github.io/trace-martin-rport/)
 
-  ## Table of Contents:
+## Features
 
-  - [Installation](#installation)
-  - [Technology](#technology)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  - [Resources](#resources)
-  <hr>
-  
-  ## Installation:
+- Home page with an introduction and brief overview.
+- Projects page to showcase personal projects with descriptions, images, and links.
+- Experience page to highlight work experience and schooling.
+- About page to provide more detailed information.
+- Contact page with a contact form.
 
-  You can fork the repo, or clone the repo.
+## Technologies Used
 
-  ## Technology:
+- React.js
+- React Router for client-side routing
+- Material-UI for styling and components
+- [Pixabay.com](https://pixabay.com/) for images on site
 
-  React, Node.js, 
-  
-  
+- Other libraries, tools, or frameworks can be viewed in package.json
 
-  ## License:
+## Installation
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-  <br>
-  This project is licensed under the <a href="https://opensource.org/license/mit/">MIT</a> License.
+- Clone the repository:
 
+```md
+- open bash
+- git clone https://github.com/your-username/your-portfolio-repo.git
+- Change directory to the project folder:
+- cd your-portfolio-repo
 
-  ## Contributing:
+- Install dependencies:
+- npm install
 
-  Noone may contribute to this project at this time.
+- Start the development server:
+- npm start
+- Open your browser and visit http://localhost:3000 to view.
+```
 
-  ## Tests:
+## Known Issues:
 
-  N/A
+When viewing a page other than the home page, on reload page loads 404. SO, instead of loading 404 I have directed the page to load the, "/", "Home" page.
 
-  ## Questions:
-  <hr>
+## Contributing
 
-  If you have any questions or would like to reach me please use one of the methods below:
+If you find any issues or have suggestions for improvements, feel free to create a pull request or submit an issue.
 
-  Email: trace.martin7817@gmail.com
+Contact
+If you have any questions or want to get in touch, you can reach me at:
 
-  GitHub: github.com/trace-martin
-
-  ## Resources:
-  
-  
+Email: trace.martin7817@gmail.com <br>
+LinkedIn: [Trace Martin](https://www.linkedin.com/in/trace-martin-7075b9237/)<br>
+GitHub: [trace-martin](https://github.com/trace-martin)

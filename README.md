@@ -12,6 +12,7 @@ This React Portfolio Project is a personal portfolio website built using React.j
 - [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
+- [Resources](#resources)
 
 ## Demo
 
@@ -39,7 +40,7 @@ You can check out the live demo of the portfolio [HERE!](https://trace-martin.gi
 - Clone the repository:
 
 ```md
-- open bash
+- open terminal
 - git clone https://github.com/your-username/your-portfolio-repo.git
 - Change directory to the project folder:
 - cd your-portfolio-repo
@@ -66,3 +67,8 @@ If you have any questions or want to get in touch, you can reach me at:
 Email: trace.martin7817@gmail.com <br>
 LinkedIn: [Trace Martin](https://www.linkedin.com/in/trace-martin-7075b9237/)<br>
 GitHub: [trace-martin](https://github.com/trace-martin)
+
+## Resources
+[Code and Deploy A React Portfolio](https://www.youtube.com/watch?v=x7mwVn2z3Sk) - used for overall build guide.
+<br>
+[w3schools](https://www.w3schools.com/css/) - for effects and transitions

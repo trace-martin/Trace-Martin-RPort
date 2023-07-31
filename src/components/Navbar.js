@@ -16,7 +16,7 @@ function Navbar() {
       <div className='navbarContainer'>
         <div className='navbar' id={expandNavbar ? 'open' : 'collapsed'}>
         {location.pathname !== '/' && (
-          <div className='logoOverlay'> TraceMartin </div>
+          <div className='logoOverlay'> <b className='pulse circle'>T</b>race<b>M</b>artin </div>
         )}
             <div className='toggleButton'>
                 <button onClick={() => {setExpandNavBar((prev) => !prev)}}> 

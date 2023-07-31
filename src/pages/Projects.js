@@ -17,6 +17,7 @@ function Projects() {
             skills={project.skills}
             description={project.description}
             gitLink={project.gitLink}
+            deployedLink={project.deployedLink}
             />
           );
         })}

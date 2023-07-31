@@ -1,8 +1,9 @@
 import React from 'react'
 import { Modal, Fade, Button } from '@mui/material';
 import '../styles/Modal.css'
+import { hasDeployedLink } from '../helpers/ProjectList';
 
-function ProjectItem({ image, name, id, skills, description, gitLink }) {
+function ProjectItem({ image, name, skills, description, gitLink, deployedLink }) {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
@@ -36,11 +37,20 @@ function ProjectItem({ image, name, id, skills, description, gitLink }) {
             </p>
             <p>
                 <b>GitHub:</b>
-                <br />
-                <a href={gitLink} target='_blank' rel="noreferrer">
+
+                <a href={ gitLink } target='_blank' rel="noreferrer">
                   Check it out!
                 </a>
             </p>
+            {hasDeployedLink({ deployedLink }) && (
+              <p>
+                <b>Deployed Link:</b>
+                <br />
+                <a href={deployedLink} target='_blank' rel='noreferrer'>
+                  Deployed Application
+                </a>
+              </p>
+            )}
             <Button onClick={handleClose} variant='contained'>
               Close
             </Button>

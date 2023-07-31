@@ -72,3 +72,5 @@ GitHub: [trace-martin](https://github.com/trace-martin)
 [Code and Deploy A React Portfolio](https://www.youtube.com/watch?v=x7mwVn2z3Sk) - used for overall build guide.
 <br>
 [w3schools](https://www.w3schools.com/css/) - for effects and transitions
+<br>
+[MUI](https://mui.com/material-ui/getting-started/) - modal on projects page, other resources (i.e, icons, etc).

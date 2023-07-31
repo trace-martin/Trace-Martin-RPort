@@ -61,7 +61,7 @@ When viewing a page other than the home page, on reload page loads 404. SO, inst
 
 If you find any issues or have suggestions for improvements, feel free to create a pull request or submit an issue.
 
-Contact
+## Contact
 If you have any questions or want to get in touch, you can reach me at:
 
 Email: trace.martin7817@gmail.com <br>

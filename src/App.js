@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
@@ -15,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Router 
-        basename={process.env.NODE_ENV === 'development' ? '' : '/trace-martin-rport'}>
+        basename="/trace-martin-rport">
         <Navbar />
         <div>
         <Routes>

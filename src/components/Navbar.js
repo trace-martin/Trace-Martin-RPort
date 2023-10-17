@@ -19,15 +19,6 @@ function Navbar() {
 
   return (
       <div className='navbarContainer'>
-        {/* <div className='navbar' id={expandNavbar ? 'open' : 'collapsed'}>
-        {location.pathname !== '/' && (
-          <div className='logoOverlay'> <b className='pulse circle'>T</b>race<b>M</b>artin </div>
-        )}
-            <div className='toggleButton'>
-                <button onClick={() => {setExpandNavBar((prev) => !prev)}}> 
-                    <ReorderTwoToneIcon />
-                </button>
-            </div> */}
             <ul className='navbar'>
                 <li style={{'--i': '#023466', '--j': 'white'}}>
                     <a href='/'>

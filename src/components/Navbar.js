@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import "../styles/Navbar.css";
 // import ReorderTwoToneIcon from '@mui/icons-material/ReorderTwoTone';
 import CollectionsIcon from '@mui/icons-material/Collections';

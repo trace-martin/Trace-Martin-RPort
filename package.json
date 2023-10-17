@@ -24,7 +24,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "cp public/404.html build/",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

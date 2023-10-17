@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';

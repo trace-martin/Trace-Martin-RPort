@@ -16,7 +16,7 @@ This React Portfolio Project is a personal portfolio website built using React.j
 
 ## Live Site
 
-You can check out my portfolio [HERE!](https://trace-martin.github.io/trace-martin-rport/){:target="_blank" rel="noopener"}
+You can check out my portfolio [HERE!](https://trace-martin.github.io/trace-martin-rport/){:target="_blank"}
 
 ## Features
 
